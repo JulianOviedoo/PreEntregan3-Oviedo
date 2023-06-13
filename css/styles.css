@@ -208,6 +208,116 @@ fieldset form .btn-secondary {
   border-bottom: none;
 }
 
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.catalogo .producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.catalogo .producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.catalogo .producto h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.catalogo .producto p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.catalogo .producto .btn-agregar {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.catalogo .producto .btn-agregar:hover {
+  background-color: darkgreen;
+}
+
+.politicas {
+  display: grid;
+  grid-template-columns: auto auto;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 100px;
+}
+.politicas th, .politicas td {
+  border: 1px solid black;
+  padding: 8px;
+}
+.politicas th {
+  background-color: #f2f2f2;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.catalogo .producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.catalogo .producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.catalogo .producto .btn-agregar {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.catalogo .producto .btn-agregar:hover {
+  background-color: darkgreen;
+}
+
+.guia-talles {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+.guia-talles h2 {
+  text-align: center;
+}
+.guia-talles table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.guia-talles table th, .guia-talles table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.guia-talles table th {
+  background-color: #f2f2f2;
+}
+
+table td {
+  background-color: white;
+}
+
 .container #carouselExampleCaptions .carousel-indicators button.active {
   background-color: #000;
 }

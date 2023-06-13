@@ -1,0 +1,66 @@
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  
+    .producto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+  
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+      }
+  
+      .btn-agregar {
+        background-color: green;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: darkgreen;
+        }
+      }
+    }
+  }
+  .guia-talles {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  
+    h2 {
+      text-align: center;
+    }
+  
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+  
+      th, td {
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+      }
+  
+      th {
+        background-color: #f2f2f2;
+      }
+    }
+  }
+  
+  table td {
+    background-color: white;
+  }
+  
